@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this is a test directory to learn Git and Node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "https://github.com/YunChan94/git-test.git",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YunChan94/git-test.git"
+  },
+  "author": "YunChan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YunChan94/git-test/issues"
+  },
+  "homepage": "https://github.com/YunChan94/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
